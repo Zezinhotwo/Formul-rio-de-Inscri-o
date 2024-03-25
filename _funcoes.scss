@@ -1,0 +1,15 @@
+@mixin flex-box_center($espaco, $direction) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: $espaco;
+    flex-direction: $direction;
+}
+@mixin pintar_fundo_letra($cordofundo, $pintarLetras) {
+    background-color: $cordofundo;
+    color: $pintarLetras;
+    font:normal 12pt arial;
+}
+@mixin Bordar_redonda{
+    border-radius: 6px;
+}
